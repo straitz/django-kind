@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Детский сад "Солнышко"</title>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}">
+    <script src="{% static 'main/animation.js' %}"></script>
+</head>
+<body>
+<header>
+    <h1>Детский сад "Солнышко"</h1>
+    <nav>
+        <a href="/">Главная</a>
+        <a href="/about/">О нас</a>
+    </nav>
+</header>
+
+<main>
+    <div class="sky">
+        <div class="sun"></div>
+        <div class="cloud cloud1"></div>
+        <div class="cloud cloud2"></div>
+        <div class="cloud cloud3"></div>
+    </div>
+
+    <section class="welcome">
+        <h2>Добро пожаловать!</h2>
+        <p>В нашем детском саду всегда светит солнце и звучит детский смех!</p>
+        <button onclick="startAnimation()">✨ Улыбнись!</button>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Детский сад "Солнышко"</p>
+</footer>
+</body>
+</html>

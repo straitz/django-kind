@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Environments
+.env
+.env.*
+venv/
+venv*/ 
+ENV/
+.envrc
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+
+# Migrations (если хочешь игнорировать сгенерированные миграции)
+# migrations/
+# */migrations/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache/
+.tox/
+
+# Git
+*.orig
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# Build
+dist/
+build/
